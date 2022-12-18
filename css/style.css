@@ -9,19 +9,19 @@ body {
 .banner {
     height: 100vh;
     position: relative;
-    background-image: url('https://i.postimg.cc/bNrjpM0c/pexels-barry-plott-753500-1-1.jpg');
+    background-image: url("https://i.postimg.cc/bNrjpM0c/pexels-barry-plott-753500-1-1.jpg");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-   
+
 }
 
 .banner-inner {
     position: absolute;
     width: 100%;
-    top: 60%;
+    top: 40%;
     text-align: center;
-    
+
 }
 
 .page-title {
@@ -37,7 +37,7 @@ body {
 
 .btn {
     border-radius: 10px;
-    margin-left: 780px;
+    margin-left: 750px;
     padding: 10px 10px;
     position: absolute;
     font-size: 30px;
@@ -46,15 +46,16 @@ body {
     height: 50px;
     width: 200px;
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-  
+
 }
 
-.btn a{
+.btn a {
     text-decoration: none;
     color: #228B22;
 }
 
 .song-text {
+    margin-top: 100px;
     padding-left: 200px;
     color: red;
     font-size: 25px;
@@ -69,5 +70,4 @@ body {
     font-style: italic;
     margin-left: 100px;
 }
-
 
